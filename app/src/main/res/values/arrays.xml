@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinnerType">
+        <item>יבשים</item>
+        <item>רטובים</item>
+        <item>פירות</item>
+        <item>ירקות</item>
+    </array>
+</resources>

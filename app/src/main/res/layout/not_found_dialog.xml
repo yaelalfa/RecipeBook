@@ -50,6 +50,7 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
         <Spinner
+            android:id="@+id/spinnerType"
             android:layout_width="117dp"
             android:layout_height="41dp"
             android:layout_marginTop="94dp"
@@ -58,7 +59,7 @@
             app:layout_constraintHorizontal_bias="0.637"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-            app:layout_constraintVertical_bias="0.021"> </Spinner>
+            app:layout_constraintVertical_bias="0.021"></Spinner>
 
         <EditText
             android:id="@+id/editTextText"
@@ -72,9 +73,33 @@
             app:layout_constraintHorizontal_bias="0.921"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/addimage"
+            android:layout_width="162dp"
+            android:layout_height="39dp"
+            android:text="העלאת תמונה"
+            android:backgroundTint="@color/textColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.678" />
+
+        <Button
+            android:id="@+id/addIngredientBut"
+            android:layout_width="103dp"
+            android:layout_height="49dp"
+            android:text="הוסף"
+            android:backgroundTint="@color/textColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.134"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.94" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
 </RelativeLayout>
