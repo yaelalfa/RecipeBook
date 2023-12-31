@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="logo_back">#E0C49D</color>
     <color name="logo_back_see_through">#DCC49D</color>
+    <color name="textColor">#7F4E2B</color>
 </resources>

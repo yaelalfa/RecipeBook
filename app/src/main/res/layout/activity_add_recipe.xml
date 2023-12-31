@@ -4,4 +4,124 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddRecipeActivity"/>
+    tools:context=".AddRecipeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="383dp"
+        android:layout_height="229dp"
+        android:background="@drawable/name_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003">
+
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="273dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="שם המתכון"
+            android:textColorHint="@color/textColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:orientation="horizontal" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="יבשים"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="רטובים"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="פירות"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="ירקות"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="393dp"
+        android:layout_height="327dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/notFoundI"
+        android:layout_width="149dp"
+        android:layout_height="32dp"
+        android:clickable="true"
+        android:text="לא מצאת את המרכיב?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.807" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
